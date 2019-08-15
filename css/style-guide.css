@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+
+.style-guid-block-row{margin:-15px;}
+.style-guid-block-column{padding:15px;}
+.style-guid-wrapper{padding:30px;}
+.style-guid-block{margin-bottom:50px;}
+.style-guid-block:last-child{margin-bottom:0;}
+.style-guid-block h1{color:var(--white-color); font-weight:var(--font-bold);}
+.style-guid-block h2{color:var(--white-color); font-weight:var(--font-bold);}
+.style-guid-block nav.menu{position:static !important;}
+.white-box{padding:30px; background-color:var(--white-color); min-height:100%;}
+.style-guide-list li{margin-bottom:15px;}
+.style-guide-list li:last-child{margin-bottom:0;}
+.style-guide-list li h2{color:var(--text-color);}
+.color-palet{width:160px; height:90px;}
+
+@media(max-width:1199px){
+	.white-box{min-height:auto;}
+}
